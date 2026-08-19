@@ -1,3 +1,4 @@
+import objetoMensaje-Bolichito-Ayxto.colores.*
 object arito {
   const peso = 180
 }
@@ -15,7 +16,7 @@ object bolichito {
 }
 
 object cajita {
-  
+  var peso = 400
 }
 
 object munieco {
@@ -32,5 +33,12 @@ object placa {
 }
 
 object remera {
-  const peso = 800
+    //var peso = 800
+  method color() = rojo
+  method material = lino
+  method peso() = // peso
+
+  method modificarPeso(nuevoPeso) {
+    peso = nuevoPeso
+  }
 }
