@@ -3,7 +3,12 @@ object cobre {
 }
 
 object cuero {
-  const brilla = false
+  //var opaco = 100
+  method brilla() = false //Cambiar todas por method ...() = true/false
+
+  //method opacarse()
+  //if (cuero.brilla())
+  //  opaco = opaco - 5
 }
 
 object lino {
