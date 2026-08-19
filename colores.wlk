@@ -11,7 +11,12 @@ object pardo {
 }
 
 object rojo {
-  const esFuerte = true
+  method esFuerte() {
+    if (color == "rojo" or color = "verde")
+    return true
+    else
+    return false
+  }
 }
 
 object verde {

@@ -7,7 +7,7 @@ object cuero {
   method brilla() = false //Cambiar todas por method ...() = true/false
 
   //method opacarse()
-  //if (cuero.brilla())
+  //if (cuero.brilla())  En vez de cuero se puede usar self. (siempre y cuando lo use para llamar al objeto)
   //  opaco = opaco - 5
 }
 
