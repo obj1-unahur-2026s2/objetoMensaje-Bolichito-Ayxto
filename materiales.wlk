@@ -1,6 +1,5 @@
 object cobre {
-  const brilla = true
-}
+  method brilla() = true}
 
 object cuero {
   //var opaco = 100
@@ -12,13 +11,13 @@ object cuero {
 }
 
 object lino {
-  const brilla = false
+  method brilla() = false
 }
 
 object madera {
-  const brilla = false
+  method brilla() = false
 }
 
 object vidrio {
-  const brilla = true
+  method brilla() = true
 }

@@ -1,16 +1,26 @@
 object rosa {
-  const peso = 2000
+  method leGusta(cosa){
+    return cosa.peso() <= 2000
+  }
 }
 
 object estefania {
-  const color = colorFuerte
+  method leGusta(cosa){
+    return cosa.color().esFuerte()
+  }
 }
 
-object jluisa {
-  const material = materialBrillante
+object luisa {
+  method leGusta(cosa){
+    return cosa.color().brilla()
+  }
 }
 
 object juan {
-  const color = colorNoFuerte
-  const peso = 1200 1800
+  method leGusta(cosa) {
+    const colorNoEsFuerte = not cosa.color().esFuerte()
+    const pesoEntreLímites = cosa.peso().between(1200, 1800)
+    
+    return colorNoEsFuerte or pesoEntreLímites
+  }
 }
